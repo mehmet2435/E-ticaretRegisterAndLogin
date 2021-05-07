@@ -4,6 +4,9 @@ import eTicaret.business.abstracts.UserServices;
 import eTicaret.entities.concretes.User;
 
 public class UserManagers implements UserServices {
+	public UserManagers() {
+		
+	}
 
 	@Override
 	public void Register(User user) {
